@@ -1,0 +1,111 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      background-color: #ffff;
+      line-height: 1.3;
+      
+    }
+
+    header {
+        background-image:url(photos/IMG-8219.jpg);
+        background-size:cover;
+        height:350px;
+        padding: 20px;
+      }
+
+    .contact img {
+       height: 20px;
+      }
+
+      header.nav {
+        display:flex;
+      }
+
+
+    h1 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:36px;
+        color:#ff6600;
+    }
+
+
+    h2 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:12px;
+        color:#ffff;
+    }
+
+    h3 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:18px;
+        color:rgb(238, 114, 5);
+
+    }
+
+section {
+        overflow: hidden;
+      }
+
+
+ .about {
+    background-color: #FFDA00;
+    width: 100%;
+ }
+
+ .about p {
+    width: 800px;
+    margin-top: 25px;
+    font-size:16px;
+    color:rgb(157, 75, 4);
+  }
+
+  .abouttext {
+    float: left;
+    width: 50%;
+    padding: 60px 80px 50px 80px;;
+  }
+
+  .about img {
+    float: left;
+    width: 25%;
+    padding:20px;
+  }
+
+
+  .news {
+    background-color: #4c7ae7;
+    width: 100%;
+  }
+
+
+  .news p {
+    width: 500px;
+    margin-top: 25px;
+    font-size:16px;
+    color:#fff;
+  }
+
+  .newstext {
+    float: left;
+    width: 50%;
+    padding: 60px 80px 50px 80px;;
+  }
+
+  .news img {
+    float: left;
+    width: 25%;
+    padding:20px;
+  }
+
+.newstext img {
+    width:20px;
+  }
+
+  footer {
+    width:100%;
+    background-color: #ff6600;
+    height:20px;
+  }
+
+
+
