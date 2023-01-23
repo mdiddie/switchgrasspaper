@@ -278,3 +278,14 @@ margin-right: auto;
   }
 
 
+  @media (max-width:400px){
+    abouttext p {
+      width:300px;
+    }
+
+    newstext p {
+      width:300px;
+    }
+  }
+
+
