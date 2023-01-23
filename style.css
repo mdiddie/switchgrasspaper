@@ -130,6 +130,8 @@ section {
   /* Mobile Section */
 
   @media (max-width:1380px){ 
+
+
   
   section {
   overflow: hidden;
@@ -161,6 +163,7 @@ section {
 }
 
 .abouttext p {
+
 margin-left: auto;
 margin-right: auto;
 }
@@ -191,6 +194,7 @@ margin-right: auto;
 
 
 .newstext p {
+
   margin-left: auto;
   margin-right: auto;
   }
@@ -200,7 +204,9 @@ margin-right: auto;
   }
 
 
-  @media (max-width: 1200px){
+  @media (max-width: 900px){
+
+ 
 
     section {
       overflow: hidden;
@@ -225,12 +231,14 @@ margin-right: auto;
     
     
     .abouttext {
+     
       float: none;
       width: 100%;
       padding: 5px;
     }
     
     .abouttext p {
+    width:335px;
     margin-left: auto;
     margin-right: auto;
     }
@@ -262,6 +270,7 @@ margin-right: auto;
     }
     
     .newstext p {
+    width:335px;
     margin-left: auto;
     margin-right: auto;
     }
