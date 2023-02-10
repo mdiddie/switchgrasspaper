@@ -22,6 +22,53 @@ body {
       }
 
 
+      div.title {
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content: center;
+      
+
+      }
+
+      .title h1 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:88px;
+        color:#fc633c;
+        
+
+        text-align: center;
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom:0px;
+        text-shadow: 1px 1px 2px rgb(51, 56, 145);
+
+      }
+
+      div.subtitle {
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content: center;
+       
+
+      }
+
+      .subtitle h2 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:28px;
+        color:#ffff;
+        margin:0px;
+
+        text-align: center;
+        width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        
+      }
+
+
     h1 {
         font-family:Arial, Helvetica, sans-serif;
         font-size:36px;
@@ -93,14 +140,35 @@ section {
 
   .news img {
     float: left;
-    width: 35%;
-    padding:10px;
+    width: 25%;
+    padding: 18px;
+  }
+
+  .newsmobile {
+    display:none;
+  }
+
+
+  .contact {
+    background-color: #88a13b;
+    width: 100%;
+    
+  }
+
+
+  .contactus h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:28px;
+    color:rgb(254, 252, 251);
+    width:400px;
+    padding-left: 20px;
+
   }
 
 
 
   footer {
-    background-color: #91b22f;
+    background-color: #d08c0e;
     padding: 10px;
     overflow: hidden;
     
@@ -121,6 +189,7 @@ section {
   footer img {
     float:right;
     width:20px;
+    padding:10px;
 
   }
 
@@ -129,22 +198,37 @@ section {
 
   /* Mobile Section */
 
-  @media (max-width:1380px){ 
-
+  @media (max-width:1100px){ 
 
   
-  section {
-  overflow: hidden;
+
+section {
+      overflow: hidden;
+        }
+
+
+header {
+      height: 350px;
+    }
+
+
+.title h1 {
+      font-size:58px;
+      width: 800px;
+    }
+
+.subtitle h2 {
+      font-size:22px;
+      width: 600px;
     }
 
 
 .about img {
-
   float: none;
-  width: 100%;
-  padding:3px;
+  width: 50%;
+  padding-bottom:20px;
 
-}
+    }
 
 
 .about {
@@ -155,30 +239,30 @@ section {
 
 }
 
-
 .abouttext {
   float: none;
-  width: 100%;
+  width: auto;
   padding: 60px 80px 50px 80px;
 }
 
 .abouttext p {
-
 margin-left: auto;
 margin-right: auto;
 }
 
 
 
-.news img {
-
-  float: none;
-  width: 100%;
-  padding:3px;
+.news {
+  display:none;
 
 }
 
-.news {
+
+
+.newsmobile {
+  
+  background-color: #4c7ae7;
+  display:block;
   width: 100%;
   text-align: center;
   margin-left: auto;
@@ -186,17 +270,44 @@ margin-right: auto;
 
 }
 
-.newstext {
+.newsmobile img {
   float: none;
-  width: 100%;
+  width: 50%;
+  padding: 20px 20px;
+
+}
+
+.newstextmobile {
+  float: none;
+  width: auto;
   padding: 60px 80px 50px 80px;
+
+}
+
+.newstextmobile p {
+  font-size:16px;
+  color:#fff;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
-.newstext p {
+.contact {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
-  margin-left: auto;
-  margin-right: auto;
+  }
+
+  .contactus h3 {
+    float:none;
+    width:auto;
+    font-size:16px;
+    margin-left: auto;
+    margin-right: auto;
+ 
   }
   
 
@@ -204,7 +315,21 @@ margin-right: auto;
   }
 
 
-  @media (max-width: 900px){
+  @media (max-width: 500px){
+
+    header {
+      height: 120px;
+    }
+
+    .title h1 {
+      font-size:28px;
+      width: 500px;
+    }
+
+    .subtitle h2 {
+      font-size:12px;
+      width: 300px;
+    }
 
  
 
@@ -214,10 +339,9 @@ margin-right: auto;
     
     
     .about img {
-    
       float: none;
-      width: 100%;
-    
+       
+     
     }
     
     
@@ -230,12 +354,12 @@ margin-right: auto;
     }
     
     
-    .abouttext {
-     
+    div.abouttext {
       float: none;
       width: 100%;
       padding: 5px;
-    }
+      }
+
     
     .abouttext p {
     width:335px;
@@ -244,18 +368,14 @@ margin-right: auto;
     }
 
 
+    .newsmobile img {
 
-
-    .news img {
-    
       float: none;
-      width: 100%;
-    
     }
     
     
-    .news {
-      width: 100%;
+    .newsmobile {
+      width: auto;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
@@ -263,27 +383,34 @@ margin-right: auto;
     }
     
     
-    .newstext {
+    .newstextmobile {
       float: none;
       width: 100%;
       padding: 5px;
     }
     
-    .newstext p {
+    .newstextmobile p {
     width:335px;
     margin-left: auto;
     margin-right: auto;
     }
 
+
+
+    
+
   }
 
 
   @media (max-width:400px){
+
+
+
     abouttext p {
       width:300px;
     }
 
-    newstext p {
+    newstextmobile p {
       width:300px;
     }
   }
