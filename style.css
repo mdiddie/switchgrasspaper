@@ -94,6 +94,11 @@ section {
       }
 
 
+.aboutmobile {
+    display:none;
+      }
+
+
  .about {
     background-color: #FFDA00;
     width: 100%;
@@ -144,9 +149,7 @@ section {
     padding: 18px;
   }
 
-  .newsmobile {
-    display:none;
-  }
+
 
 
   .contact {
@@ -223,68 +226,65 @@ header {
     }
 
 
-.about img {
-  float: none;
-  width: 50%;
-  padding-bottom:20px;
-
-    }
-
-
 .about {
-  width: 100%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.abouttext {
-  float: none;
-  width: auto;
-  padding: 60px 80px 50px 80px;
-}
-
-.abouttext p {
-margin-left: auto;
-margin-right: auto;
-}
-
-
-
-.news {
   display:none;
-
 }
 
-
-
-.newsmobile {
-  
-  background-color: #4c7ae7;
+.aboutmobile {
+  background-color: #FFDA00;
   display:block;
   width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.newsmobile img {
+
+.aboutmobile img {
   float: none;
   width: 50%;
-  padding: 20px 20px;
+  padding: 20px 20px 0px 20px;
+
+    }
+
+
+.aboutmobile {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
-.newstextmobile {
+.abouttextmobile {
   float: none;
   width: auto;
-  padding: 60px 80px 50px 80px;
+  padding: 10px 20px 20px 20px;
+}
+
+.abouttextmobile p {
+  font-size:16px;
+  color:#fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.news img {
+  float: none;
+  width: 50%;
+  padding: 20px 20px 0px 20px;
 
 }
 
-.newstextmobile p {
+.newstext {
+  float: none;
+  width: auto;
+  padding: 10px 20px 20px 20px;
+
+}
+
+.newstext p {
   font-size:16px;
   color:#fff;
   margin-left: auto;
@@ -368,13 +368,13 @@ margin-right: auto;
     }
 
 
-    .newsmobile img {
+    .news img {
 
       float: none;
     }
     
     
-    .newsmobile {
+    .news {
       width: auto;
       text-align: center;
       margin-left: auto;
@@ -383,13 +383,13 @@ margin-right: auto;
     }
     
     
-    .newstextmobile {
+    .newstext {
       float: none;
       width: 100%;
       padding: 5px;
     }
     
-    .newstextmobile p {
+    .newstext p {
     width:335px;
     margin-left: auto;
     margin-right: auto;
