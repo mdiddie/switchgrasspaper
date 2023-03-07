@@ -389,6 +389,7 @@ header {
 }
 
 .newstext p {
+  width:auto;
   font-size:16px;
   color:#fff;
   margin-left: auto;
@@ -500,12 +501,11 @@ header {
     
     .newstext {
       float: none;
-      width: 100%;
-      padding: 5px;
+      width: auto;
+      padding: 10px 20px 20px 20px;
     }
     
     .newstext p {
-    width:335px;
     margin-left: auto;
     margin-right: auto;
     }
