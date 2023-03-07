@@ -177,6 +177,7 @@ section {
 
   .imagecontent img {
   width:35%;
+  padding:8px;
   }
 
   .imagetext {
