@@ -140,6 +140,14 @@ section {
     padding: 60px 80px 50px 80px;
   }
 
+
+  .newstext a {
+    text-decoration:none;
+    color:#fc633c;
+    font-size:18px;
+
+  }
+
   .news img {
     float: left;
     width: 25%;
