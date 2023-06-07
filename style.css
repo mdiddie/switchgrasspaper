@@ -148,10 +148,16 @@ section {
 
   }
 
-  .news img {
+  /* .news img {
     float: left;
     width: 25%;
     padding: 18px;
+  } */
+
+.gif img {
+    float:left;
+    width: 25%;
+    padding:100px 30px 100px 100px;
   }
 
 
