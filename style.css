@@ -91,6 +91,8 @@ section {
       }
 
 
+
+
 .aboutmobile {
     display:none;
       }
@@ -103,7 +105,8 @@ section {
 
  .about p {
     width: 600px;
-    margin-top: 25px;
+    margin-right:auto;
+    margin-left:auto;
     font-size:16px;
     color:rgb(157, 75, 4);
   }
@@ -198,6 +201,40 @@ section {
     text-align:center;
     margin: 0 auto;
     width: 50%;
+  }
+
+
+
+  .chicagopaper {
+    background-color: #f8b020;
+    padding:20px;
+  
+  }
+  
+  .chicagopaper p {
+    color:#fff;
+    text-align:left;
+    margin: 30 auto 10 auto;
+    width: 50%;
+  }
+  
+  
+  .chicagopaper img {
+    float: left;
+    width: 25%;
+    padding:20px;
+  }
+
+  /* .chicagopapertext {
+    color:#fff;
+    text-align:center;
+    
+    width: 50%;
+
+  } */
+
+  .chicagopapermobile {
+    display:none;
   }
 
 
@@ -426,6 +463,22 @@ header {
 }
 
 
+.chicagopaper {
+  display:none;
+}
+
+
+.chicagopapermobile {
+  background-color: #f8b020;
+  display:block;
+  width : 100%;
+  text-align: center;
+  margin-left : auto;
+  margin-right: auto;
+
+}
+
+
 .contact {
     width: 100%;
     text-align: center;
@@ -528,6 +581,8 @@ header {
     margin-left: auto;
     margin-right: auto;
     }
+
+
 
 
 
