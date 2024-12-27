@@ -479,6 +479,14 @@ header {
 }
 
 
+.chicagopapermobile img {
+  float: none;
+  width: 50%;
+  padding: 20px 20px 0px 20px;
+
+    }
+
+
 .contact {
     width: 100%;
     text-align: center;
@@ -558,6 +566,10 @@ header {
 
     .news img {
 
+      float: none;
+    }
+
+    .chicagopaper img {
       float: none;
     }
     
