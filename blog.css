@@ -17,6 +17,17 @@ body {
    
     }
 
+
+
+    div.blog {
+      width: 550px;
+      margin-left:auto;
+      margin-right:auto;
+      text-align:center;
+    }
+
+
+
     .photo {
         padding:0 0 10px 0;
     }
@@ -25,6 +36,13 @@ body {
         font-size:24px;
         color:rgb(42, 80, 101);
     }
+
+    h4 {
+      font-size:18px;
+      color:rgb(42, 80, 101);
+      
+      
+  }
 
 
     .newspage img {
