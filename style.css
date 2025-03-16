@@ -1,8 +1,12 @@
+
+
+
+
+
 body {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
-      background-color: #ffff;
-      line-height: 1.3;
+      font-family: "Nunito", sans-serif;
+       background-color: #ffff;
+      line-height: 1.4;
       
     }
 
@@ -35,14 +39,14 @@ body {
       }
 
       .title h1 {
-        font-family:Arial, Helvetica, sans-serif;
+        font-family: "Nunito", sans-serif;
         font-size:78px;
         color:#fc633c;
         width: 1000px;
         margin-bottom:0px;
         text-shadow: 1px 1px 2px rgb(51, 56, 145);
 
-        margin-left:35px;
+        margin-left:120px;
 
       }
 
@@ -55,36 +59,39 @@ body {
 
 
       .subtitle h2 {
-        font-family:Arial, Helvetica, sans-serif;
+        font-family: "Nunito", sans-serif;
         font-size:28px;
         color:#ffff;
         margin:0px;
         width: 1000px;
 
-        margin-left:35px;
+        margin-left:120px;
       } 
 
 
 
     h1 {
-        font-family:Arial, Helvetica, sans-serif;
+      font-family: "Nunito", sans-serif;
         font-size:36px;
         color:#ff6600;
     }
 
 
     h2 {
-        font-family:Arial, Helvetica, sans-serif;
+      font-family: "Nunito", sans-serif;
         font-size:12px;
         color:#ffff;
     }
 
     h3 {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size:18px;
+      font-family: "Nunito", sans-serif;
+        font-size:26px;
         color:rgb(238, 114, 5);
 
     }
+
+
+  
 
 section {
         overflow: hidden;
@@ -105,22 +112,22 @@ section {
 
  .about p {
     width: 600px;
-    margin-right:auto;
-    margin-left:auto;
-    font-size:16px;
+    font-size:24px;
     color:rgb(157, 75, 4);
   }
 
   .abouttext {
     float: left;
     width: 50%;
-    padding: 60px 80px 50px 80px;;
+    padding: 20px 20px 100px 120px;
   }
+
+
 
   .about img {
     float: left;
-    width: 25%;
-    padding:20px;
+    width: 30%;
+    padding:80px 120px 50px 20px;
   }
 
 
@@ -133,7 +140,7 @@ section {
   .news p {
     width: 600px;
     margin-top: 25px;
-    font-size:16px;
+    font-size:24px;
     color:#fff;
   }
 
@@ -144,22 +151,24 @@ section {
   }
 
 
+
+
   .newstext a {
     text-decoration:none;
     color:#fc633c;
-    font-size:18px;
+    font-size:px;
 
   }
 
   .insta img {
-    width: 25px;
+    width: 50px;
     
   }
 
 .founders img {
     float:left;
-    width: 25%;
-    padding:25px 25px 25px 50px;
+    width: 30%;
+    padding:60px 20px 100px 120px;
   }
 
 
@@ -198,9 +207,11 @@ section {
 
   .imagetext {
     color:#fff;
+    font-size:24px;
     text-align:center;
     margin: 0 auto;
-    width: 50%;
+   width: 800px;
+    padding-bottom:50px;
   }
 
 
@@ -210,28 +221,36 @@ section {
     padding:20px;
   
   }
+
+
+  .chicagopapertext {
+    float: left;
+    width: 50%;
+    padding: 60px 80px 50px 80px;
+
+  }
   
   .chicagopaper p {
     color:#fff;
+    font-size: 24px;
     text-align:left;
-    margin: 30 auto 10 auto;
-    width: 50%;
+    width: 500px;
+    float: left;
   }
   
   
   .chicagopaper img {
     float: left;
     width: 25%;
-    padding:20px;
+    padding:60px 20px 100px 120px;
   }
 
-  /* .chicagopapertext {
-    color:#fff;
-    text-align:center;
-    
-    width: 50%;
+  .chicagopaper a {
+    text-decoration:none;
+    color:#ff6600;
+    padding-bottom: 15px;
+  }
 
-  } */
 
   .chicagopapermobile {
     display:none;
@@ -247,7 +266,7 @@ section {
 
 
   .contactus h3 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size:24px;
     color:rgb(254, 252, 251);
     width:400px;
@@ -311,13 +330,13 @@ section {
 
 
     div.titlemobile h1 {
-        font-family:Arial, Helvetica, sans-serif;
+      font-family: "Nunito", sans-serif;
         font-size:58px;
         color:#fc633c;
         
 
         text-align: center;
-        width: 1000px;
+        
         margin-right: auto;
         margin-left: auto;
         margin-bottom:0px;
@@ -334,7 +353,7 @@ section {
       } 
 
       .subtitlemobile h2 {
-        font-family:Arial, Helvetica, sans-serif;
+        font-family: "Nunito", sans-serif;
         font-size:18px;
         color:#ffff;
         margin:0px;
@@ -456,6 +475,7 @@ header {
 
 
 .imagetext {
+  font-size:16px;
   float: none;
   width: auto;
   padding: 10px 20px 20px 20px;
@@ -463,12 +483,18 @@ header {
 }
 
 
+
+
+
 .chicagopaper {
   display:none;
 }
 
 
+
 .chicagopapermobile {
+
+  
   background-color: #f8b020;
   display:block;
   width : 100%;
@@ -477,6 +503,29 @@ header {
   margin-right: auto;
 
 }
+
+.chicagopapermobiletext {
+  float: none;
+  width: auto;
+  padding: 10px 20px 20px 20px;
+
+}
+
+.chicagopapermobiletext p {
+  width:auto;
+  font-size:16px;
+  color:#fff;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.chicagopapermobiletext a {
+  text-decoration: none;
+  color:#fc633c;
+}
+
+
 
 
 .chicagopapermobile img {
